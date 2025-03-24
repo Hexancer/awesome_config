@@ -17,6 +17,7 @@ require("awful.autofocus")
 local wibox = require("wibox")
 local beautiful = require("beautiful")
 local naughty = require("naughty")
+naughty.config.defaults.position = "bottom_right"
 local lain = require("lain")
 local menubar = require("menubar")
 local freedesktop = require("freedesktop")
